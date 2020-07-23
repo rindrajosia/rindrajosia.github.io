@@ -35,7 +35,7 @@ Currently looking for my next developer job -- feel free to contact me! (rrindra
 * Github: **[@rindrajosia](https://github.com/rindrajosia)**
 * Twitter: **[@rindrajosia](https://twitter.com/josia_rindra)**
 * Linkedin: **[linkedin](https://www.linkedin.com/in/rindra-josia-99b2111a2/)**
-* Email: **[rrindrajosia@gmail.com](rrindrajosia@gmail.com)**
+* Email: **[rrindrajosia@gmail.com](#)**
 
 #  Contributing
 
