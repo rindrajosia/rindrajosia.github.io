@@ -1,6 +1,6 @@
 
 .btn-live {
-  background-image: linear-gradient(to right, #77a1d3 0%, #79cbca 51%, #77a1d3 100%);
+  background-image: linear-gradient(to right, #77a1d3 0%, #79cbca 51%, #00e2ee 100%);
   padding: 6px 12px;
   border-radius: 3px;
 }
@@ -14,7 +14,7 @@
   border: 1px solid #4b8f29;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
+  color: #170d0d;
   font-size: 13px;
   font-weight: bold;
   padding: 6px 12px;
