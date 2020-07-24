@@ -1,6 +1,5 @@
 
 .btn-live {
-
   font-family: "maquette", Arial, serif;
   box-shadow: 0 10px 14px -7px #dc143c;
   background: linear-gradient(to bottom, #8b0000 5%, #b00 100%);
@@ -9,7 +8,7 @@
   border: 1px solid #b00;
   display: inline-block;
   cursor: pointer;
-  color: #170d0d;
+  color: #feee;
   font-size: 13px;
   font-weight: bold;
   padding: 6px 12px;
