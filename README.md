@@ -14,7 +14,7 @@ Currently looking for my next developer job -- feel free to contact me! (rrindra
 * CSS
 
 # Live Demo
-**[Live Demo](https://raw.githack.com/rindrajosia/portfolio/master/index.html)**
+**[Live Demo](https://rindrajosia.github.io/)**
 
 # Projects
 * lifestyle articles
