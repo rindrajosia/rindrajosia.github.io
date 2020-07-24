@@ -1,33 +1,29 @@
 
-.btn-live {
+.btn-live,
+.skill {
   font-family: "maquette", Arial, serif;
-  box-shadow: 0 10px 14px -7px #dc143c;
-  background: linear-gradient(to bottom, #8b0000 5%, #b00 100%);
-  background-color: #8b0000;
   border-radius: 4px;
-  border: 1px solid #b00;
   display: inline-block;
   cursor: pointer;
-  color: #feee;
   font-size: 13px;
   font-weight: bold;
   padding: 6px 12px;
   margin: 1em 1em 1em 1em;
 }
 
+.btn-live {
+  box-shadow: 0 10px 14px -7px #dc143c;
+  background: linear-gradient(to bottom, #8b0000 5%, #b00 100%);
+  background-color: #8b0000;
+  border-radius: 4px;
+  color: #feee;
+}
+
 .skill {
-  font-family: "maquette", Arial, serif;
   box-shadow: 0 10px 14px -7px #3e7327;
   background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
   background-color: #77b55a;
-  border-radius: 4px;
   border: 1px solid #4b8f29;
-  display: inline-block;
-  cursor: pointer;
   color: #170d0d;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 6px 12px;
   text-shadow: 0 1px 0 #5b8a3c;
-  margin: 1em 1em 1em 1em;
 }
