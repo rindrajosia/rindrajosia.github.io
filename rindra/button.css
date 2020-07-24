@@ -1,8 +1,19 @@
 
 .btn-live {
-  background-color: #d6d6ec;
+
+  font-family: "maquette", Arial, serif;
+  box-shadow: 0 10px 14px -7px #dc143c;
+  background: linear-gradient(to bottom, #8b0000 5%, #b00 100%);
+  background-color: #8b0000;
+  border-radius: 4px;
+  border: 1px solid #b00;
+  display: inline-block;
+  cursor: pointer;
+  color: #170d0d;
+  font-size: 13px;
+  font-weight: bold;
   padding: 6px 12px;
-  border-radius: 3px;
+  margin: 1em 1em 1em 1em;
 }
 
 .skill {
