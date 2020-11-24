@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Portfolio</title>
-    <link rel="icon"
-      type="image/ico"
-      href="img/eagles.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="rindra/reset.css">
-    <link rel="stylesheet" href="rindra/font.css">
-    <link rel="stylesheet" href="rindra/master.css">
-    <link rel="stylesheet" href="rindra/button.css">
-    <link rel="stylesheet" href="css/style.css">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173454804-1"></script>
     <script>
@@ -25,239 +20,380 @@
 
   </head>
   <body>
-    <header class="container-fluid-rj">
+        <a href="#" class="scrolltop" id="scroll-top">
+          <i class="bx bx-chevron-up scrolltop__icon"></i>
+        </a>
 
-      <nav class="hidden hidden-top row-rj flex-row-rj flex-justify-center-rj flex-align-center-rj col-sm-12">
-          <ul class="col-sm-12 flex-row-rj">
-            <li><a href="#Vitrine">About</a></li>
-            <li><a href="#Vitrine">Skills</a></li>
-            <li><a href="#Project">Project</a></li>
-            <li><a href="#Contact">Contact</a></li>
-          </ul>
-      </nav>
-
-      <nav class="show-rj row-rj flex-row-rj flex-justify-end-rj col-md-12">
-        <ul class="flex-row-rj col-md-5">
-          <li><a href="#Vitrine">About</a></li>
-          <li><a href="#Vitrine">Skills</a></li>
-          <li><a href="#Project">Project</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-
-      <div id="Vitrine" class="container-rj row-slide-rj">
-
-          <div class="col-sm-12 col-xl-6 col-md-6">
-                  <div class="gallery-item">
-                    <div class="latest-new-header">
-                          <h2><a href="#">About</a>  </h2>
-                    </div>
-                    <a href="#">
-                        <ul class="list-slide-description">
-
-                            <li>
-                              <h3>
-                                    RAKOTONARIVO Rindra Josia
-                              </h3>
-                              <p class="author">
-                                Software engineer with a strong analytical mindset and 7+ years of experience building desktop and web applications.
-                              </p>
-                              <p class="author">
-                                Studied computer science in college.
-                                Have Bachelor's degrees in Computer Science.
-                                Completed all of the theoretical courses for the Postgraduate Diploma in Information Technology.
-                              </p>
-                              <p class="author">
-                                Love to solve problems and challenge myself.
-                              </p>
-                              <p class="author">
-                                Currently looking for my next developer job -- feel free to contact me! (rrindrajosia@gmail.com)
-                              </p>
-                            </li>
-                        </ul>
-                      </a>
-                    </div>
+        <header class="l-header" id="header">
+          <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Rindra Josia</a>
+            <div class="nav__menu" id ="nav-menu">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
+              </ul>
             </div>
-            <div class="col-sm-12 col-xl-6 col-md-6">
-                    <div class="gallery-item">
-                      <div class="latest-new-header">
-                            <h2><a href="#">Skills</a>  </h2>
-                      </div>
-                        <ul class="list-slide-description">
-                                <li>
-                                  <a href="#" class="skill">JavaScript</a>
-                                  <a href="#" class="skill">CSS3</a>
-                                  <a href="#" class="skill">HTML5</a>
-                                  <a href="#" class="skill">PHP</a>
-                                  <a href="#" class="skill">Ruby on Rails</a>
-                                  <a href="#" class="skill">Windows</a>
-                                  <a href="#" class="skill">Linux</a>
-                                  <a href="#" class="skill">Mysql</a>
-                                  <a href="#" class="skill">Wordpress</a>
-                                </li>
-                        </ul>
-                      </div>
+
+            <div class="nav__toggle" id ="nav-toggle">
+              <i class="bx bx-menu"></i>
             </div>
-        </div>
+          </nav>
+
+        </header>
+
+        <main class="l-main">
+              <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                  <div class="home__data">
+                    <span class="home__greeting">Hello, My name is</span>
+                    <h2 class="home__name">Rindra Josia</h2>
+                    <span class="home__profession">Full stack Developper</span>
+                    <a download="" href="./assets/pdf/resume.pdf" class="button button-light home__button">Download CV</a>
+                  </div>
+
+                  <div class="home__social">
+                    <a href="https://www.facebook.com/josiarindra.rakotonarivo.3" target="_blank" class="home__social-icon"><i class="bx bxl-facebook-square"></i></a>
+                    <a href="mailto:rrindrajosia@gmail.com" class="home__social-icon"><i class='bx bx-envelope' ></i></a>
+                    <a href="https://github.com/rindrajosia" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://twitter.com/josia_rindra" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/rindra-josia-99b2111a2/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+
+                </div>
+              </section>
 
 
-          <div id="Project" class="container-rj row-slide-rj deals">
-            <div class="latest-new-header col-sm-12 col-md-12 col-xl-12 flex-row-rj flex-justify-center-rj flex-align-center-rj">
-            <h2><a href="#">My Recent Work</a> </h2>
-          </div>
+            <section class="about section bd-container" id="about">
+              <span class="section-subtitle">My history</span>
+              <h2 class="section-title">About me</h2>
 
-              <div class="col-sm-12 col-md-6 col-xl-4">
-                      <div class="gallery-latest app-item">
-                            <ul class="list-latest">
-                                <li>
-                                  <div class="image">
-                                      <img src="img/home.png" alt="">
-                                  </div>
-                                </li>
-                                <li>
-                                  <div class="list-latest-header">
-                                     <ul>
-                                       <li>
-                                         <h4>Ruby on Rails Capstone Project</h4>
-                                     </li>
-                                       <li>
-                                         <h5>This project is a desktop web app based on
-                                           lifestyle articles website.
-                                         </h5>
-                                     </li>
-                                       <li>
-                                         <p class="author">
-                                           The project consists of a Sing up/Login with username.
-                                           The user is presented with the homepage. When the user clicks
-                                           the category name they can see all articles in that category.
-                                          </p>
-                                     </li>
-                                     <li>
-                                               <a href="#" class="skill">CSS3</a>
-                                               <a href="#" class="skill">HTML5</a>
-                                               <a href="#" class="skill">Ruby on Rails</a>
-                                      </li>
-                                      <li>
-                                            <a href="https://frozen-lowlands-65547.herokuapp.com/" target="_blank" class="btn-live">live demo</a>
-                                            <a href="https://github.com/rindrajosia/ror-capstone" target="_blank" class="btn-live">github</a>
-                                       </li>
-                                     </ul>
-                                   </div>
-                                  </li>
-                            </ul>
+              <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                  <p class="about__description">
+                    <span>Hello, I am <br></span>
+                    A full-stack developer that can work cross-functionally between the
+                    front-end and back-end while managing multiple projects ranging in priority levels.
+                    Proven experience developing customer-focused websites
+                    using Ruby on Rails, PHP, CSS, HTML, ES6, React and Redux.
+                    Designed and developed web applications across multiple APIs and Databases.
+                  </p>
+                </div>
+
+                <img src="./assets/img/josia.png" alt="Josia" class="about__img">
+              </div>
+            </section>
+
+
+            <section class="qualification section bd-container">
+              <span class="section-subtitle">Skills and education</span>
+              <h2 class="section-title">Qualification</h2>
+
+              <div class="qualification__container bd-grid">
+
+                    <div class="qualification__content">
+                        <h2 class="qualification__title">
+                          <i class='bx bx-briefcase-alt qualification__title-icon' ></i>
+                          Skills
+                        </h2>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                              <h3 class="qualification__area">Front-End</h3>
+
+
+                              <div class="qualification__box">
+                                <span class="qualification__work">
+                                  <i class='bx bx-briefcase-alt qualification__icon' ></i>
+                                  JavaScript - React - Redux - jQuery - HTML5 - CSS3.
+                                </span>
+                              </div>
+                            </div>
+
+                            <div class="qualification__data">
+                              <h3 class="qualification__area">Back-End</h3>
+
+                              <div class="qualification__box">
+                                <span class="qualification__work">
+                                  <i class='bx bx-briefcase-alt qualification__icon' ></i>
+                                  PHP - Ruby - Ruby on Rails.
+                                </span>
+                              </div>
+                            </div>
+
+                          <div class="qualification__data">
+                            <h3 class="qualification__area">Tools & Methods</h3>
+
+
+                            <div class="qualification__box">
+                              <span class="qualification__work">
+                                <i class='bx bx-briefcase-alt qualification__icon' ></i>
+                                Git - GitHub - Mobile/Responsive Development - RSpec - TDD.
+                              </span>
+                            </div>
                         </div>
-                </div>
 
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                        <div class="gallery-latest app-item">
-                              <ul>
-                                  <li>
-                                    <div class="image">
-                                        <img src="img/main.png" alt="">
-                                    </div>
-                                  </li>
-                                  <li>
-                                    <div class="list-latest-header">
-                                       <ul>
-                                         <li>
-                                           <h4>Online Shop for Electronics</h4>
-                                       </li>
-                                         <li>
-                                           <h5>In this project I built a Responsive Web-page design.
-                                             This project is based on Mohammed Awad design.
-                                           </h5>
-                                       </li>
-                                         <li>
-                                           <p class="author">
-                                            It's a 2-pages website, which includes the main page and the search result page.
-                                            The web-page is responsive in 2 different screen sizes:
-                                            Mobile version : up to 768px;
-                                            Tablet & desktop: from 768px;
-                                            </p>
-                                       </li>
-                                       <li>
-                                                 <a href="#" class="skill">CSS3</a>
-                                                 <a href="#" class="skill">HTML5</a>
-                                        </li>
-                                        <li>
-                                              <a href="https://rawcdn.githack.com/rindrajosia/capstone-html/31db66316b628f3e88ffdb63ef0798613c6382d9/index.html" target="_blank" class="btn-live">live demo</a>
-                                              <a href="https://github.com/rindrajosia/capstone-html" target="_blank" class="btn-live">github</a>
-                                         </li>
-                                       </ul>
-                                     </div>
-                                    </li>
-                              </ul>
+                        <div class="qualification__data">
+                          <h3 class="qualification__area">Professional</h3>
+
+
+                          <div class="qualification__box">
+                            <span class="qualification__work">
+                              <i class='bx bx-briefcase-alt qualification__icon' ></i>
+                              Remote Pair-Programming - Teamwork - Mentoring.
+                            </span>
                           </div>
-                  </div>
-
-                  <div class="col-sm-12 col-md-6 col-xl-4">
-                    <div class="gallery-latest app-item">
-                        <ul class="list-latest">
-                              <li>
-                                <div class="image">
-                                    <img src="img/screen.png" alt="">
-                                </div>
-                              </li>
-                              <li>
-                                <div class="list-latest-header">
-                                   <ul>
-                                     <li>
-                                       <h4>Web Scraping</h4>
-                                   </li>
-                                     <li>
-                                       <h5>In this project, I build my own scraper.
-                                         Web scraping: is a programmatic method of extracting data from websites.</h5>
-                                   </li>
-                                     <li>
-                                       <p class="author">
-                                        The main goal of this project is to scrape information from https://www.jumia.mg/maisons-a-vendre&xhr=9jdcu and to store data in a json file.
-                                        </p>
-                                   </li>
-                                   <li>
-                                             <a href="#" class="skill">CSS3</a>
-                                             <a href="#" class="skill">HTML5</a>
-                                    </li>
-                                    <li>
-                                          <a href="https://bd42dc40-a181-4608-9fa5-e528b04c69bd.ws-eu01.gitpod.io/#/workspace/capstone-scraper" target="_blank" class="btn-live">live demo</a>
-                                          <a href="https://github.com/rindrajosia/capstone-scraper" target="_blank" class="btn-live">github</a>
-                                     </li>
-                                   </ul>
-                                 </div>
-                                </li>
-                          </ul>
+                      </div>
                       </div>
                     </div>
 
-          </div>
 
-          </main>
+                  <div class="qualification__content">
+                      <h2 class="qualification__title">
+                          <i class='bx bx-book-bookmark qualification__title-icon' ></i>
+                          Education
+                      </h2>
+                    <div class="bd-grid">
+                      <div class="qualification__data">
+                          <h3 class="qualification__area">Postgraduate Diploma in IT</h3>
 
 
-          <footer id="Contact">
-              <div class="footer-top flex-row-rj flex-justify-center-rj flex-align-center-rj">
-                <div class="flex-column-rj">
-                  <div class="social">
-                    <ul class="first float-right-rj">
-                      <li><a href="https://www.facebook.com/josiarindra.rakotonarivo.3"><i class="fab fa-facebook-square"></i></a></li>
-                      <li><a href="https://www.linkedin.com/in/rindra-josia-99b2111a2/"><i class="fab fa-linkedin-in"></i></a></li>
-                      <li><a href="https://twitter.com/josia_rindra"> <i class="fab fa-twitter"></i></a></li>
-                      <li><a href="https://github.com/rindrajosia"><i class="fab fa-github"></i></a></li>
-                      <li><a href="mailto:rrindrajosia@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                    </ul>
+                          <div class="qualification__box">
+                              <span class="qualification__work">
+                                <i class='bx bx-book-alt qualification__icon' ></i>
+                                INDIA - AMITY UNIVERSITY
+                              </span>
 
+                              <span class="qualification__work">
+                                <i class='bx bx-calendar-alt qualification__icon' ></i>
+                                Dec 2010 - Dec 2011
+                              </span>
+                          </div>
+                      </div>
+
+                      <div class="qualification__data">
+                          <h3 class="qualification__area">Full Stack Web Development Program</h3>
+
+
+                          <div class="qualification__box">
+                              <span class="qualification__work">
+                                <i class='bx bx-book-alt qualification__icon' ></i>
+                                Remote - MICROVERSE
+                              </span>
+
+                              <span class="qualification__work">
+                                <i class='bx bx-calendar-alt qualification__icon' ></i>
+                                March 2020 – Dec 2020
+                              </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </section>
+
+
+
+            <section class="project section bd-container">
+              <div class="project__container bd-grid">
+                <div class="project__data">
+                  <i class='bx bx-chat project__icon' ></i>
+
+                  <div>
+                    <h2 class="project__title">Project in mind</h2>
+                    <p class="project__description">
+                      Hire me to carry out them
+                    </p>
+                  </div>
+
+                  <div>
+                    <a href="mailto:rrindrajosia@gmail.com" class="button button-white">Hire me</a>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+
+
+            <section class="portfolio section bd-container" id="portfolio">
+              <span class="section-subtitle">My recent works</span>
+              <h2 class="section-title">Portfolio</h2>
+
+              <div class="portfolio__nav">
+                <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio__item" data-filter=".web">WEB</span>
+                <span class="portfolio__item" data-filter=".ux">ROR</span>
+                <span class="portfolio__item" data-filter=".app">ES6</span>
+              </div>
+
+              <div class="portfolio__container bd-grid">
+
+                <div class="portfolio__content mix web">
+                  <a href="#"> <img src="assets/img/main.png" alt="" class="portfolio__img"> </a>
+                  <div class="portfolio__data">
+                    <a href="#">
+                      <h2 class="portfolio__title">Online Shop for Electronics.</h2>
+                    </a>
+                    <div class="portfolio__social">
+                      <i class='bx bxl-html5 portfolio__link' ></i>
+                      <i class='bx bxl-css3 portfolio__link'></i>
+                    </div>
+		                <div class="portfolio-button-div">
+                        <a href="https://rawcdn.githack.com/rindrajosia/capstone-html/31db66316b628f3e88ffdb63ef0798613c6382d9/index.html" target="_blank" class="button portfolio-button">Live demo <i class='bx bx-link-external'></i></a>
+		                    <a href="https://github.com/rindrajosia/capstone-html" target="_blank" class="button portfolio-button">See source <i class='bx bxl-github'></i></a>
+		                  </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="footer-bottom flex-row-rj flex-justify-center-rj flex-align-center-rj">
-                <div class="footer-text">
-                  <span>Copyright © RAKOTONARIVO Rindra Josia Made with <small>♥</small></span>
+                <div class="portfolio__content mix ux">
+                  <a href="#"> <img src="assets/img/home.png" alt="" class="portfolio__img"> </a>
+                  <div class="portfolio__data">
+                    <a href="#">
+                      <h2 class="portfolio__title">Lifestyle articles Web.</h2>
+                    </a>
+                    <div class="portfolio__social">
+                      <i class='bx bxl-html5 portfolio__link' ></i>
+                      <i class='bx bxl-css3 portfolio__link'></i>
+                      <img src="assets/img/rails.png" class="rails portfolio__link" alt="Rails" />
+                      <img src="assets/img/ruby.png" class="rails portfolio__link" alt= "Ruby" />
+                    </div>
+		                 <div class="portfolio-button-div">
+		                    <a href="https://frozen-lowlands-65547.herokuapp.com/" target="_blank" class="button portfolio-button see">Live demo <i class='bx bx-link-external'></i></a>
+			                  <a href="https://github.com/rindrajosia/ror-capstone" target="_blank" class="button portfolio-button see">See source <i class='bx bxl-github'></i></a>
+		                 </div>
+                  </div>
                 </div>
-              </div>
-  </footer>
 
-  </body>
+                <div class="portfolio__content mix ux">
+                  <a href="#"> <img src="assets/img/screen.png" alt="" class="portfolio__img"> </a>
+                  <div class="portfolio__data">
+                    <a href="#">
+                      <h2 class="portfolio__title">Web Scraping.</h2>
+                    </a>
+                    <div class="portfolio__social">
+                      <img src="assets/img/ruby.png" class="rails portfolio__link" alt= "Ruby"/>
+                    </div>
+		                <div class="portfolio-button-div">
+		                    <a href="https://bd42dc40-a181-4608-9fa5-e528b04c69bd.ws-eu01.gitpod.io/#/workspace/capstone-scraper" target="_blank" class="button portfolio-button see">Live demo <i class='bx bx-link-external'></i></a>
+			                  <a href="https://github.com/rindrajosia/capstone-scraper" target="_blank" class="button portfolio-button see">See source <i class='bx bxl-github'></i></a>
+		               </div>
+                  </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                  <a href="#"> <img src="assets/img/tictac.jpg" alt="" class="portfolio__img"> </a>
+                  <div class="portfolio__data">
+                    <a href="#">
+                      <h2 class="portfolio__title">Tic Tac Game.</h2>
+                    </a>
+                    <div class="portfolio__social">
+                      <i class='bx bxl-html5 portfolio__link' ></i>
+                      <i class='bx bxl-css3 portfolio__link'></i>
+                      <i class='bx bxl-javascript portfolio__link'></i>
+                    </div>
+		                <div class="portfolio-button-div">
+		                    <a href="https://raw.githack.com/rindrajosia/tictactoe-js/feature/index.html" target="_blank" class="button portfolio-button see">Live demo <i class='bx bx-link-external'></i></a>
+			                 <a href="https://raw.githack.com/rindrajosia/tictactoe-js/feature/index.html" target="_blank" class="button portfolio-button see">See source <i class='bx bxl-github'></i></a>
+		                </div>
+                  </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                  <a href="#"> <img src="assets/img/api.jpg" alt="" class="portfolio__img"> </a>
+                  <div class="portfolio__data">
+                    <a href="#">
+                      <h2 class="portfolio__title">Weather App.</h2>
+                    </a>
+                    <div class="portfolio__social">
+                      <i class='bx bxl-html5 portfolio__link' ></i>
+                      <i class='bx bxl-css3 portfolio__link'></i>
+                      <i class='bx bxl-javascript portfolio__link'></i>
+                    </div>
+		                 <div class="portfolio-button-div">
+		                    <a href="https://silly-hoover-313a7e.netlify.app/" target="_blank" class="button portfolio-button see">Live demo <i class='bx bx-link-external'></i></a>
+			                    <a href="https://silly-hoover-313a7e.netlify.app/" target="_blank" class="button portfolio-button see">See source <i class='bx bxl-github'></i></a>
+		                </div>
+                  </div>
+                </div>
+
+
+
+                <div class="portfolio__content mix app">
+                  <a href="#"> <img src="assets/img/rpg.jpg" alt="" class="portfolio__img"> </a>
+                  <div class="portfolio__data">
+                    <a href="#">
+                      <h2 class="portfolio__title">RPG Game</h2>
+                    </a>
+                    <div class="portfolio__social">
+                      <i class='bx bxl-html5 portfolio__link' ></i>
+                      <i class='bx bxl-css3 portfolio__link'></i>
+                      <i class='bx bxl-javascript portfolio__link'></i>
+                    </div>
+		                <div class="portfolio-button-div">
+		                    <a href="https://safe-escarpment-68765.herokuapp.com/" target="_blank" class="button portfolio-button see">Live demo <i class='bx bx-link-external'></i></a>
+			                  <a href="https://safe-escarpment-68765.herokuapp.com/" target="_blank" class="button portfolio-button see">See source <i class='bx bxl-github'></i></a>
+		               </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </section>
+
+
+            <section class="contact section bd-container" id="contact">
+              <span class="section-subtitle">For projects</span>
+              <h2 class="section-title">Contact Me</h2>
+
+              <div class="contact__container bd-grid">
+
+                <form class="contact__form" action="https://api.mailslurp.com/forms?_to=rrindrajosia@gmail.com" method="post">
+		              <input type="hidden" name="_redirectTo" value="https://rindrajosia.github.io/" />
+                  <div class="contact__inputs">
+                    <input type="text" class="contact__input" placeholder="Name *" name="name" value="" required>
+                    <input type="email" class="contact__input" placeholder="Email *" name="email" value="" required>
+                  </div>
+
+                  <div class="contact__inputs">
+                    <input type="text" class="contact__input" placeholder="Project *" name="project" value="" required>
+                    <input type="number" class="contact__input" placeholder="Number" min="1" name="number">
+                  </div>
+
+                  <textarea class="contact__input" placeholder="Message *" name="name" rows="7" cols="10" required></textarea>
+                  <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+              </div>
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+          <div class="footer__container bd-container">
+            <h1 class="footer__title">Rindra Josia</h1>
+            <p class="footer__description"> I am Rindra Josia and this is my personal website.</p>
+
+            <div class="footer__social">
+              <a href="https://www.facebook.com/josiarindra.rakotonarivo.3" target="_blank" class="footer__link"><i class="bx bxl-facebook-square"></i></a>
+              <a href="mailto:rrindrajosia@gmail.com" class="footer__link"><i class='bx bx-envelope' ></i></a>
+              <a href="https://github.com/rindrajosia" target="_blank" class="footer__link"><i class='bx bxl-github'></i></a>
+              <a href="https://twitter.com/josia_rindra" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+              <a href="https://www.linkedin.com/in/rindra-josia-99b2111a2/" target="_blank" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2020 Rindra Josia. All right reserved</p>
+          </div>
+
+        </footer>
+
+        <script src="./assets/js/mixitup.min.js"></script>
+
+
+        <script src="./assets/js/gsap.min.js"></script>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
