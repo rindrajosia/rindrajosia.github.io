@@ -1,9 +1,7 @@
 # About me
-Software engineer with a strong analytical mindset and 7+ years of experience building desktop and web applications.
-Studied computer science in college.
-Have Bachelor's degrees in Computer Science.
-Completed all of the theoretical courses for the Postgraduate Diploma in Information Technology.
-Love to solve problems and challenge myself.
+A full-stack developer that can work cross-functionally between the front-end and back-end while managing
+ multiple projects ranging in priority levels. Proven experience developing customer-focused websites using
+  Ruby on Rails, PHP, CSS, HTML, ES6, React and Redux. Designed and developed web applications across multiple APIs and Databases. 
 Currently looking for my next developer job -- feel free to contact me! (rrindrajosia@gmail.com)
 
 ![Algorithm schema](./portfolio.png)
